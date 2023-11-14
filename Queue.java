@@ -43,4 +43,10 @@ public class QueueExample {
         customQueue.enqueue(20);
         customQueue.enqueue(30);
 
-        System.out.println("Queue size: " + customQueue.size
+        System.out.println("Queue size: " + customQueue.size());
+        System.out.println("Front element: " + customQueue.peek());
+
+        System.out.println("Dequeue element: " + customQueue.dequeue());
+        System.out.println("Queue size after dequeue: " + customQueue.size());
+    }
+}
